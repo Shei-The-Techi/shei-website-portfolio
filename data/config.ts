@@ -30,7 +30,7 @@ export const siteConfig = {
   },
   
   // Site Metadata
-  siteUrl: 'https://yourportfolio.com', // CHANGE THIS when deployed
+  siteUrl: 'https://shei-website-portfolio.vercel.app/', // CHANGE THIS when deployed
   
   // Stats (for About page)
   stats: {
