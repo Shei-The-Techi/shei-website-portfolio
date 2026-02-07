@@ -56,17 +56,17 @@ const nextConfig: NextConfig = {
             value: "camera=(), microphone=(), geolocation=()",
           },
           {
-  key: "Content-Security-Policy",
-  value: [
-    "default-src 'self'",
-    "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.googletagmanager.com https://*.google-analytics.com",
-    "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data: https: blob: https://*.google-analytics.com https://*.googletagmanager.com",
-    "font-src 'self' data:",
-    "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
-    "frame-ancestors 'self'",
-  ].join("; "),
-},
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.googletagmanager.com https://*.google-analytics.com",
+              "style-src 'self' 'unsafe-inline'",
+              "img-src 'self' data: https: blob: https://*.google-analytics.com https://*.googletagmanager.com",
+              "font-src 'self' data:",
+              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
+              "frame-ancestors 'self'",
+            ].join("; "),
+          },
         ],
       },
     ];
