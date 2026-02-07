@@ -1,3 +1,4 @@
+// Updated on [today's date]
 'use client';
 
 import Script from 'next/script';
