@@ -1,21 +1,13 @@
 'use client';
 
 import Script from 'next/script';
-import { useEffect } from 'react';
 
 interface GoogleAnalyticsProps {
   gaId: string;
 }
 
 const GoogleAnalytics = ({ gaId }: GoogleAnalyticsProps) => {
-  useEffect(() => {
-    console.log('Google Analytics Component Loaded');
-    console.log('GA ID received:', gaId);
-    console.log('Environment variable:', process.env.NEXT_PUBLIC_GA_ID);
-  }, [gaId]);
-
-  if (!gaId || gaId === '') {
-    console.error('Google Analytics ID is missing!');
+  if (!gaId) {
     return null;
   }
 
@@ -26,7 +18,7 @@ const GoogleAnalytics = ({ gaId }: GoogleAnalyticsProps) => {
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
       />
       <Script
-        id="google-analytics"
+        id="gtag-init"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
@@ -36,7 +28,6 @@ const GoogleAnalytics = ({ gaId }: GoogleAnalyticsProps) => {
             gtag('config', '${gaId}', {
               page_path: window.location.pathname,
             });
-            console.log('Google Analytics initialized with ID: ${gaId}');
           `,
         }}
       />

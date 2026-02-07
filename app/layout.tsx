@@ -73,22 +73,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html lang="en" className="scroll-smooth">
-    <head>
-      <StructuredData />
-    </head>
-    <body
-      className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased bg-charcoal-dark text-white`}
-    >
-      {process.env.NEXT_PUBLIC_GA_ID && (
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-      )}
-      <Navigation />
-      <main className="min-h-screen pt-16">
-        {children}
-      </main>
-      <Footer />
-    </body>
-  </html>
-);
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <StructuredData />
+      </head>
+      <body
+        className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased bg-charcoal-dark text-white`}
+      >
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
+        <Navigation />
+        <main className="min-h-screen pt-16">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  );
 }
