@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: {
-    default: `${siteConfig.name} - Portfolio`,
+    default: `${siteConfig.name}`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description || siteConfig.shortBio,
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.siteUrl,
-    title: `${siteConfig.name} - Portfolio`,
+    title: `${siteConfig.name}`,
     description: siteConfig.description || siteConfig.shortBio,
-    siteName: `${siteConfig.name} Portfolio`,
+    siteName: `${siteConfig.name}`,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} - Portfolio`,
+    title: `${siteConfig.name}`,
     description: siteConfig.description || siteConfig.shortBio,
     creator: siteConfig.social.twitter.includes('@') 
       ? siteConfig.social.twitter.split('/').pop() 
