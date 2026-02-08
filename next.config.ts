@@ -63,7 +63,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: https: blob: https://*.google-analytics.com https://*.googletagmanager.com https://www.google-analytics.com",
               "font-src 'self' data:",
-              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com",
+              "connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://api.web3forms.com",
               "frame-ancestors 'self'",
             ].join("; "),
           },
