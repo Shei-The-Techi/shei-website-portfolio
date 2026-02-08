@@ -7,42 +7,82 @@ const Experience = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Senior IT Specialist',
-      organization: 'Tech Company',
-      period: '2022 - Present',
+      title: 'IT Support Specialist',
+      organization: 'Freelance',
+      period: 'June 2021 - Present',
       description:
-        'Leading cybersecurity initiatives and developing secure web applications. Implemented security protocols that reduced vulnerabilities by 60%.',
-      highlights: [
-        'Architected secure cloud infrastructure',
-        'Led security audits and penetration testing',
-        'Mentored junior developers on security best practices',
+        'I Provide remote and on site IT support and consulting to Businesses, Organizations and individual clients across diverse industries.',
+      
+        highlights: [
+        'Resolve remote hardware and software issues',
+        'Implement cloud and local data backups',
+        'Advise on practical security best practices',
+        'Reduce downtime through proactive monitoring',
+        'Create clear technical documentation',
       ],
     },
     {
       type: 'work',
-      title: 'Full-Stack Developer',
-      organization: 'Digital Agency',
-      period: '2020 - 2022',
+      title: 'IT Consultant',
+      organization: 'CK Marketing Coaching',
+      period: 'March 2024 – Present',
       description:
-        'Built responsive web applications using modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality solutions.',
+        'Established IT infrastructure for a marketing and coaching company during rapid growth phase.',
       highlights: [
-        'Developed 15+ client projects from concept to deployment',
-        'Optimized application performance by 40%',
-        'Implemented CI/CD pipelines',
+        'Deploy and manage Google Workspace',
+        'Implement data security controls',
+        'Advise on cost-effective technology decisions',
+        'Provide ongoing cloud platform support',
+        'Create internal process documentation',
       ],
     },
     {
-      type: 'education',
-      title: 'Bachelor of Science in Computer Science',
-      organization: 'University Name',
-      period: '2016 - 2020',
+      type: 'work',
+      title: 'Project Lead & IT Support',
+      organization: 'Adapo (MVP Startup)',
+      period: 'July 2024 – September 2025',
       description:
-        'Focused on cybersecurity, network systems, and software engineering. Graduated with honors.',
+        'Led technical development and infrastructure while, coordinating platform design and ensuring system reliability during critical development and operation phases.',
       highlights: [
-        'Specialized in Cybersecurity',
-        'Dean\'s List all semesters',
-        'Lead developer for capstone project',
+        'Built front-end product interfaces',
+        'Streamlined pilot testing and onboarding',
+        'Advised on technical roadmap and implementation',
+        'Maintain system uptime during demos',
       ],
+    },
+    {
+    type: 'work',
+      title: 'IT Support and Administrator',
+      organization: 'AVLC Group and BT Concepts',
+      period: 'December 2019 – August 2025',
+      description:
+        'Managed complete IT operations for a multi-department organization, supporting 10+ users across remote and on-site environments.',
+      highlights: [
+        'Maintained 95% network uptime through proactive monitoring',
+        'Administered routers, switches, and wireless access points',
+        'Managed user accounts and permissions across platforms and systems',
+        'Implemented daily and weekly backups, recovering critical data',
+        'Installed and configured operating systems, software, and network devices',
+        'Created technical documentation to reduce repeat support inquiries',
+        'Trained end users on business applications',
+        'Coordinated vendor relationships for hardware and software',
+      ],
+    },
+    {
+    type: 'Internship',
+      title: 'I.T Support',
+      organization: 'National Museums of Kenya',
+      period: 'September 2018 – December 2018',
+      description:
+        'Supported IT operations for a large public institution, gaining exposure to enterprise-scale infrastructure management.',
+      highlights: [
+        'Monitored network stability and troubleshoot connectivity issues',
+        'Assisted with server maintenance and backups',
+        'Supported integration of new systems into infrastructure',
+        'Provided technical support for hardware and software',
+        'Implemented basic security measures to protect systems',
+      ],
+      
     },
   ];
 
@@ -58,10 +98,10 @@ const Experience = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Experience & <span className="text-cyan">Education</span>
+             Work <span className="text-cyan">Experience</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            My professional journey and academic background
+            My professional journey 
           </p>
         </motion.div>
 

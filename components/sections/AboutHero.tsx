@@ -21,21 +21,19 @@ const AboutHero = () => {
             
             <div className="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
-                I am a passionate <span className="text-cyan font-semibold">IT professional</span> and{' '}
-                <span className="text-cyan font-semibold">cybersecurity specialist</span> with a focus on 
-                building secure, scalable, and user-friendly applications.
+                I am a passionate <span className="text-cyan font-semibold">IT support</span> and{' '}
+                <span className="text-cyan font-semibold">technology consultant</span> with over five years of experience helping businesses and teams keep their systems reliable, secure, and easy to use. 
+                My work focuses on practical solutions, fixing issues, setting up systems properly, and making sure technology supports work instead of slowing it down.
               </p>
 
               <p>
-                My expertise spans across full-stack web development, network security, 
-                and systems administration. I believe in writing clean code, implementing 
-                robust security practices, and creating solutions that make a real impact.
+                I support organizations,businesses and individuals across different environments, from day-to-day technical support to setting up infrastructure and advising on better technology decisions. 
+                I enjoy working closely with both technical and non-technical teams to solve problems clearly and calmly.
               </p>
 
               <p>
-                With a strong foundation in both development and security, I approach 
-                every project with a security-first mindset, ensuring applications are 
-                not only functional but also resilient against modern threats.
+                Alongside my current experience, I am expanding my skills in cybersecurity, web and system development 
+                while exploring how secure systems and AI-assisted tools can improve reliability, monitoring, and operations.
               </p>
             </div>
 
@@ -75,15 +73,15 @@ const AboutHero = () => {
             className="relative"
           >
             <div className="relative w-full aspect-square max-w-md mx-auto">
-              {/* Placeholder - you'll replace with your actual image later */}
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan/20 to-navy rounded-2xl border-2 border-cyan/30 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">👨‍💻</div>
-                  <p className="text-gray-400 text-sm">Your Photo Here</p>
-                  <p className="text-gray-500 text-xs mt-2">
-                    (Replace this placeholder later)
-                  </p>
-                </div>
+              {/* Your Photo */}
+              <div className="relative w-full h-full">
+                <Image
+                  src="/profile-photo.webp"
+                  alt={siteConfig.name}
+                  fill
+                  className="object-cover rounded-2xl border-2 border-cyan/30"
+                  priority
+                />
               </div>
               
               {/* Decorative Elements */}
