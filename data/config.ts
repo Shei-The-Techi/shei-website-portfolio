@@ -1,8 +1,8 @@
 export const siteConfig = {
   // Personal Information
-  name: 'Your Full Name', // ← CHANGE: Put your actual name
+  name: 'Victor Chege', // ← CHANGE: Put your actual name
   title: 'IT Professional & Cybersecurity Specialist', // ← CHANGE: Your actual title/role
-  email: 'your-email@example.com', // ← CHANGE: Your real email
+  email: 'chegevictorthuo@gmail.com', // ← CHANGE: Your real email
   
   // Bio/Description
   shortBio: 'Building secure, scalable solutions with a focus on clarity, credibility, and cutting-edge technology.', // ← CHANGE: Your tagline
@@ -22,12 +22,12 @@ export const siteConfig = {
   
   // Social Media Links
   social: {
-    github: 'https://github.com/yourusername', // ← CHANGE: Your GitHub
-    linkedin: 'https://linkedin.com/in/yourprofile', // ← CHANGE: Your LinkedIn
-    twitter: 'https://twitter.com/yourusername', // ← CHANGE: Your Twitter/X
-    facebook: 'https://facebook.com/yourusername', // ← CHANGE: Your Facebook
-    instagram: 'https://instagram.com/yourusername', // ← CHANGE: Your Instagram
-    tiktok: 'https://tiktok.com/@yourusername', // ← CHANGE: Your TikTok
+    github: 'https://github.com/Shei-The-Techi', // ← CHANGE: Your GitHub
+    linkedin: 'https://www.linkedin.com/in/victor-chege-/', // ← CHANGE: Your LinkedIn
+    twitter: 'https://x.com/vic_shei', // ← CHANGE: Your Twitter/X
+    facebook: 'https://web.facebook.com/victor.thuo.142/', // ← CHANGE: Your Facebook
+    instagram: 'https://www.instagram.com/vic_shei/', // ← CHANGE: Your Instagram
+    tiktok: 'https://www.tiktok.com/@vic_shei?lang=en', // ← CHANGE: Your TikTok
   },
   
   // Site Metadata
@@ -36,8 +36,8 @@ export const siteConfig = {
   // Stats (for About page)
   stats: {
     yearsExperience: '5+', // ← CHANGE: Your years of experience
-    projectsCompleted: '20+', // ← CHANGE: Number of projects
-    technologies: '10+', // ← CHANGE: Technologies you work with
+    projectsCompleted: '', // ← CHANGE: Number of projects
+    technologies: '', // ← CHANGE: Technologies you work with
   },
   
   // Footer
