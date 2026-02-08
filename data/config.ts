@@ -1,7 +1,7 @@
 export const siteConfig = {
   // Personal Information
   name: 'Victor Chege', 
-  title: 'IT Support • Web & Software Development • Technology Consulting',
+  title: 'IT Support • Web & Software Developer • Technology Consultant',
 
   
   // Bio/Description
