@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; 
 import { motion } from 'framer-motion';
 import { HiMenu, HiX } from 'react-icons/hi';
 
@@ -38,12 +39,18 @@ const Navigation = () => {
           {/* Logo */}
           <Link href="/">
             <motion.div
-              className="text-xl font-bold font-mono"
               whileHover={{ scale: 1.05 }}
               transition={{ type: 'spring', stiffness: 400 }}
+              className="relative h-10 w-auto"
             >
-              <span className="text-white">VC</span>
-              <span className="text-cyan">.</span>
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                width={150}
+                height={40}
+                className="h-10 w-auto object-contain"
+                priority
+              />
             </motion.div>
           </Link>
 

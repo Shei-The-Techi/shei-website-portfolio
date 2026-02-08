@@ -1,11 +1,12 @@
 export const siteConfig = {
   // Personal Information
-  name: 'Victor Chege', // CHANGE THIS
-  title: 'IT Professional & Cybersecurity Specialist', // CHANGE THIS
-  email: 'chegevictorthuo@gmail.com', // CHANGE THIS
+  name: 'Your Full Name', // ← CHANGE: Put your actual name
+  title: 'IT Professional & Cybersecurity Specialist', // ← CHANGE: Your actual title/role
+  email: 'your-email@example.com', // ← CHANGE: Your real email
   
   // Bio/Description
-  shortBio: 'Building secure, scalable solutions with a focus on clarity, credibility, and cutting-edge technology.',
+  shortBio: 'Building secure, scalable solutions with a focus on clarity, credibility, and cutting-edge technology.', // ← CHANGE: Your tagline
+  description: 'Professional portfolio showcasing expertise in full-stack web development, cybersecurity, and IT systems administration.', // ← CHANGE: Your description
   
   // SEO Keywords
   keywords: [
@@ -17,36 +18,29 @@ export const siteConfig = {
     'Next.js',
     'TypeScript',
     'security specialist',
-  ],
-
+  ], // ← ADD/CHANGE: Your relevant keywords
+  
   // Social Media Links
   social: {
-    github: 'https://github.com/yourusername', // CHANGE THIS
-    linkedin: 'https://linkedin.com/in/yourprofile', // CHANGE THIS
-    twitter: 'https://twitter.com/yourusername', // CHANGE THIS (or X)
-    facebook: 'https://facebook.com/yourusername', // CHANGE THIS
-    instagram: 'https://instagram.com/yourusername', // CHANGE THIS
-    tiktok: 'https://tiktok.com/@yourusername', // CHANGE THIS
+    github: 'https://github.com/yourusername', // ← CHANGE: Your GitHub
+    linkedin: 'https://linkedin.com/in/yourprofile', // ← CHANGE: Your LinkedIn
+    twitter: 'https://twitter.com/yourusername', // ← CHANGE: Your Twitter/X
+    facebook: 'https://facebook.com/yourusername', // ← CHANGE: Your Facebook
+    instagram: 'https://instagram.com/yourusername', // ← CHANGE: Your Instagram
+    tiktok: 'https://tiktok.com/@yourusername', // ← CHANGE: Your TikTok
   },
   
   // Site Metadata
-  siteUrl: 'https://shei-website-portfolio.vercel.app/', // CHANGE THIS when deployed
+  siteUrl: 'https://shei-website-portfolio.vercel.app', // ← Already correct!
   
   // Stats (for About page)
   stats: {
-    yearsExperience: '5+', // CHANGE THIS
-    projectsCompleted: '20+', // CHANGE THIS
-    technologies: '10+', // CHANGE THIS
+    yearsExperience: '5+', // ← CHANGE: Your years of experience
+    projectsCompleted: '20+', // ← CHANGE: Number of projects
+    technologies: '10+', // ← CHANGE: Technologies you work with
   },
   
   // Footer
   copyrightYear: new Date().getFullYear(),
-
-  // ... existing fields ...
-  
-  // SEO
-  description: 'Professional portfolio showcasing web development and cybersecurity projects.',
-  
-  // ... rest of existing fields ...
-  
+  builtWith: 'Built with Next.js, TypeScript & Tailwind CSS',
 };

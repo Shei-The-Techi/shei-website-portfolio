@@ -25,13 +25,13 @@ const AboutHero = () => {
                 <span className="text-cyan font-semibold">cybersecurity specialist</span> with a focus on 
                 building secure, scalable, and user-friendly applications.
               </p>
-              
+
               <p>
                 My expertise spans across full-stack web development, network security, 
                 and systems administration. I believe in writing clean code, implementing 
                 robust security practices, and creating solutions that make a real impact.
               </p>
-              
+
               <p>
                 With a strong foundation in both development and security, I approach 
                 every project with a security-first mindset, ensuring applications are 
