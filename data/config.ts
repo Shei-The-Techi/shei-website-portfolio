@@ -3,6 +3,7 @@ export const siteConfig = {
   name: 'Victor Chege', 
   title: 'IT Support • Web & Software Developer • Technology Consultant',
   tagline: 'Professional tech solutions, without the unnecessary drama.',
+  email: 'chegevictorthuo@gmail.com',
   
   // Bio/Description
   shortBio: 'I support individuals, teams, and organizations by developing, setting up, fixing, and securing their technology.', 
@@ -31,7 +32,7 @@ export const siteConfig = {
     tiktok: 'https://www.tiktok.com/@vic_shei?lang=en', // ← CHANGE: Your TikTok
   },
   // Contact email (used by Contact components)
-  email: 'chegevictorthuo@gmail.com',
+  
   
   // Site Metadata
   siteUrl: 'https://shei-website-portfolio.vercel.app', // ← Already correct!

@@ -28,7 +28,9 @@ const GoogleAnalytics = ({ gaId }: GoogleAnalyticsProps) => {
             gtag('js', new Date());
             gtag('config', '${gaId}', {
               page_path: window.location.pathname,
+              debug_mode: ${process.env.NODE_ENV === 'development' ? 'true' : 'false'},
             });
+            console.log('GA initialized with ID: ${gaId}');
           `,
         }}
       />
