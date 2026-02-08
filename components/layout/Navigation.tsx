@@ -48,7 +48,7 @@ const Navigation = () => {
                 alt="Logo"
                 width={150}
                 height={40}
-                className="h-16 w-auto object-contain"
+                className="h-17 w-auto object-contain"
                 priority
               />
             </motion.div>
