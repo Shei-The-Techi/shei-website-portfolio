@@ -1,12 +1,12 @@
 export const siteConfig = {
   // Personal Information
-  name: 'Victor Chege', // ← CHANGE: Put your actual name
-  title: 'IT Professional & Cybersecurity Specialist', // ← CHANGE: Your actual title/role
-  email: 'chegevictorthuo@gmail.com', // ← CHANGE: Your real email
+  name: 'Victor Chege', 
+  title: 'IT Support • Web & Software Development • Technology Consulting',
+
   
   // Bio/Description
-  shortBio: 'Building secure, scalable solutions with a focus on clarity, credibility, and cutting-edge technology.', // ← CHANGE: Your tagline
-  description: 'Professional portfolio showcasing expertise in full-stack web development, cybersecurity, and IT systems administration.', // ← CHANGE: Your description
+  shortBio: 'I support individuals, teams, and organizations by developing, setting up, fixing, and securing their technology.', 
+  description: 'Professional portfolio showcasing expertise in full-stack web development, cybersecurity, and IT systems administration.', 
   
   // SEO Keywords
   keywords: [
@@ -29,6 +29,8 @@ export const siteConfig = {
     instagram: 'https://www.instagram.com/vic_shei/', // ← CHANGE: Your Instagram
     tiktok: 'https://www.tiktok.com/@vic_shei?lang=en', // ← CHANGE: Your TikTok
   },
+  // Contact email (used by Contact components)
+  email: 'chegevictorthuo@gmail.com',
   
   // Site Metadata
   siteUrl: 'https://shei-website-portfolio.vercel.app', // ← Already correct!
