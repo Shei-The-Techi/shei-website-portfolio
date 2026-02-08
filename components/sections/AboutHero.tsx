@@ -76,7 +76,7 @@ const AboutHero = () => {
               {/* Your Photo */}
               <div className="relative w-full h-full">
                 <Image
-                  src="/profile-photo.webp"
+                  src="/profile-photo.jpg"
                   alt={siteConfig.name}
                   fill
                   className="object-cover rounded-2xl border-2 border-cyan/30"
