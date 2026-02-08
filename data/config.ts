@@ -39,8 +39,8 @@ export const siteConfig = {
   // Stats (for About page)
   stats: {
     yearsExperience: '5+', // ← CHANGE: Your years of experience
-    projectsCompleted: '', // ← CHANGE: Number of projects
-    technologies: '', // ← CHANGE: Technologies you work with
+    projectsCompleted: '3', // ← CHANGE: Number of projects
+    technologies: '10', // ← CHANGE: Technologies you work with
   },
   
   // Footer
