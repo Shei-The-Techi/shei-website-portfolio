@@ -6,7 +6,8 @@ export const siteConfig = {
   
   // Bio/Description
   shortBio: 'I support individuals, teams, and organizations by developing, setting up, fixing, and securing their technology.', 
-  description: 'Professional portfolio showcasing expertise in full-stack web development, cybersecurity, and IT systems administration.', 
+  description: 'Professional portfolio showcasing expertise in IT support, web development, and secure systems.',
+ 
   
   // SEO Keywords
   keywords: [
