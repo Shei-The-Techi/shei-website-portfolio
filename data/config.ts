@@ -2,7 +2,7 @@ export const siteConfig = {
   // Personal Information
   name: 'Victor Chege', 
   title: 'IT Support • Web & Software Developer • Technology Consultant',
-
+  tagline: 'Professional tech solutions, without the unnecessary drama.',
   
   // Bio/Description
   shortBio: 'I support individuals, teams, and organizations by developing, setting up, fixing, and securing their technology.', 
