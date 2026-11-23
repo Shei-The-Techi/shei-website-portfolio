@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Victor Chege | IT Operations & Business Systems Consultant
 
-## Getting Started
+A professional consulting website for Victor Chege, an IT Operations and Business Systems Consultant based in Nairobi, Kenya.
 
-First, run the development server:
+## About the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This website is the digital home of Victor Chege's consulting practice. It communicates the services offered, the businesses he supports, his professional experience and his approach to improving IT operations and business systems.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The primary audience is founders of growing SMEs and businesses that rely on multiple digital platforms, external service providers and business systems but need better IT ownership, visibility and operational support.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The guiding philosophy is:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Simplify first. Automate second.**
 
-## Learn More
+The focus is on understanding existing business needs, improving what is already in place and recommending practical solutions that deliver value.
 
-To learn more about Next.js, take a look at the following resources:
+## Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Home:** Introduces the consulting practice, its value proposition and services.
+- **About:** Highlights professional background, experience and working philosophy.
+- **Services:** Presents IT and Systems Health Check, Business Systems Improvement, and Fractional IT Operations and Support.
+- **Work:** Showcases selected engagements, practical experience and project outcomes.
+- **Insights:** Shares articles and perspectives on IT operations and business systems.
+- **IT Clarity Check:** An interactive assessment covering system ownership, access reviews, backup restoration and IT issue tracking.
+- **Contact:** Provides a straightforward way for prospective clients to make enquiries.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technology Stack
 
-## Deploy on Vercel
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- MDX
+- Motion
+- Zod
+- Resend
+- Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Design Principles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website prioritises:
+
+- Clean, modern and consistent visual design.
+- Clear, concise and business-focused communication.
+- Responsive layouts across desktop, tablet and mobile.
+- Accessible navigation and interactions.
+- Subtle, purposeful animations.
+- Fast loading and reliable performance.
+
+## Project Status
+
+**In Active Development**
+
+The website's content, design and functionality are undergoing refinement. Enquiry delivery and search engine indexing will be enabled once production and launch requirements are completed.
+
+## Ownership
+
+**Project Owner:** Victor Chege  
+**Location:** Nairobi, Kenya
+
+Copyright © Victor Chege. All rights reserved.
